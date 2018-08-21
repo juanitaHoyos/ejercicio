@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intento = new Intent(getApplicationContext(), Menu.class);
                 intento.putExtra(name: "usuario", nombreUsuario);
                 startActivity(intento);
+                //aiuda
             }
         });
     }
